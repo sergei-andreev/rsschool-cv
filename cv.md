@@ -5,13 +5,19 @@
 - Telegram: **and1tmn**
 - E-mail: **s.andreev.it@gmail.com**
 
-3. Summary
+## Summary
 
-4. Skills
+## Skills
+- HTML
+- CSS/SCSS
+- JS
+- Git
+- BEM
 
-5. Code examples
+## Code examples
+- [GitHub](https://github.com/sergei-andreev)
 
-6. Experience
+## Experience
 
 ## Education
 - A few udemy courses
