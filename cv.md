@@ -1,6 +1,9 @@
-1. First Name, Last Name
+# Sergei Andreev ##
 
-2. Contact Info
+## Contact Info
+- Phone:  **+7(908)872-03-11**
+- Telegram: **and1tmn**
+- E-mail: **s.andreev.it@gmail.com**
 
 3. Summary
 
