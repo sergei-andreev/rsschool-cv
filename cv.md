@@ -13,6 +13,11 @@
 
 6. Experience
 
-7. Education
+## Education
+- A few udemy courses
+- [HTML Academy](https://htmlacademy.ru/profile/sergey_a)
+- [Hexlet](https://ru.hexlet.io/u/sergei-andreev)
+- [FreeCodeCamp](https://www.freecodecamp.org/sergei-andreev) 
+- [SoloLearn](https://www.sololearn.com/Profile/5372063)
 
 8. English
