@@ -7,17 +7,25 @@
 
 ## Summary
 
-## Skills
-- HTML
-- CSS/SCSS
-- JS
-- Git
-- BEM
+## Skills  
+**Technologies**: HTML5, CSS3/SCSS, JS (ES5, ES2015), TypeScript, BEM  
+**Frameworks & Libraries**: Lodash, Bootstrap, React  
+**Tools**: Webpack, ESLint, GIT, Firebase, Webstorm, VS Code   
 
 ## Code examples
 - [GitHub](https://github.com/sergei-andreev)
 
-## Experience
+## Professional Experience
+- **Tensor, 12.2019 - now**
+    - **Position**: Frontend engeneer  
+    - **Project**: Сorporate product - SBIS  
+    - **Environment**: HTML, LESS, JavaScript, TypeScript
+
+- **Real Estate Agency Unidom, 06.2019 - 12.2019**
+    - **Position**: Frontend developer  
+    - **Project**: https://www.ndv72.ru/  
+    - **Environment**: HTML, SCSS, JavaScript, jQuery
+
 
 ## Education
 - A few udemy courses
@@ -26,4 +34,4 @@
 - [FreeCodeCamp](https://www.freecodecamp.org/sergei-andreev) 
 - [SoloLearn](https://www.sololearn.com/Profile/5372063)
 
-8. English
+## English
