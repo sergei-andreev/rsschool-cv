@@ -8,7 +8,7 @@
 
 
 ## Summary
-
+Do what you have to do until you can do what you want to do (Oprah Winfrey)
 
 ## Skills
 
