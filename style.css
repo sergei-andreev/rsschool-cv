@@ -169,3 +169,21 @@ body {
 }
 
 /* .EDUCATIONS */
+
+
+/* CONTACTS */
+
+.contacts {
+    font-size: 18px;
+}
+
+.contacts__list {
+    list-style: none;
+}
+
+.contact__icon {
+    margin-right: 10px;
+    color: #ce462b;
+}
+
+/* .CONTACTS */
