@@ -11,7 +11,7 @@ body {
 }
 
 .section {
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 
 .container {
@@ -181,9 +181,61 @@ body {
     list-style: none;
 }
 
+.contact {
+    padding: 5px 0;
+}
+
 .contact__icon {
     margin-right: 10px;
     color: #ce462b;
 }
 
 /* .CONTACTS */
+
+
+/* MESSAGE */
+
+.form__row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__row:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.form__input {
+    height: 40px;
+    padding: 10px 15px;
+    width: 490px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 2px;
+    border: 1px solid #00000025;
+}
+
+.form__textarea {
+    width: 1000px;
+    height: 150px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 1px solid #00000025;
+    border-radius: 2px;
+    font-family: 'Poppins', sans-serif;
+    resize: none;
+}
+
+.form__btn {
+    height: 50px;
+    padding: 10px 15px;
+    text-decoration: none;
+    border: 1px solid #ce462b;
+    color: #ce462b;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+}
+
+/* .MESSAGE */
