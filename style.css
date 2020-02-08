@@ -1,0 +1,171 @@
+/* COMMON */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.section {
+    margin-bottom: 100px;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+    padding: 0 12px;
+    /* border: 1px solid black; */
+}
+
+.title {
+    color: #222222;
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    text-transform: none;
+    margin-bottom: 40px;
+}
+
+/* .COMMON */
+
+
+/* FIRST-SCREEN */
+
+.personal-photo {
+    float: right;
+    height: 400px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px #00000020;
+}
+
+.main-title {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 65px;
+    font-style: normal;
+    letter-spacing: -3px;
+    margin: 60px 0 20px;
+}
+
+.about {
+    color: #444444;
+    font-size: 18px;
+    line-height: 29px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+/* .FIRST-SCREEN */
+
+
+/* EXPERIENCE */
+
+.experience {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.experience__title {
+    font-size: 20px;
+    color: #ce462b;
+    margin-bottom: 15px;
+}
+
+/* .EXPERIENCE */
+
+
+/* SKILLS */
+
+.skills {
+    font-size: 18px;
+}
+
+.skills-type {
+    margin-bottom: 25px;
+}
+
+.skills__list {
+    list-style: none;
+    display: flex;
+}
+
+.skills__title {
+    font-size: 20px;
+    color: #ce462b;
+    margin-bottom: 15px;
+}
+
+.skills__list-item {
+    padding: 5px 10px;
+    border: 1px solid #00000025;
+    margin-right: 15px;
+    border-radius: 2px;
+}
+
+/* .SKILLS */
+
+
+/* EDUCATIONS */
+
+.educations {
+    display: flex;
+    font-size: 20px;
+}
+
+.educations__row {
+    display: flex;
+}
+
+.educations__row:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.educations__column {
+    width: auto;
+}
+
+.educations__column:not(:last-child) {
+    margin-right: 20px;
+}
+
+.education {
+    display: flex;
+    border: 1px solid #00000025;
+    padding: 10px 10px;
+    border-radius: 2px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .education:hover {
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 12px;
+} */
+
+.education:not(:last-child) {
+    margin-right: 20px;
+}
+
+.education__main {
+    border: 1px solid #ce462b80;
+    width: 380px;
+    height: 140px;
+}
+
+.education__add-first {
+    width: 290px;
+}
+
+.education__add-second {
+    width: 100%;
+    min-width: 130px;
+    font-size: 18px;
+}
+
+/* .EDUCATIONS */
