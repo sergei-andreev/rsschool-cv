@@ -156,6 +156,15 @@ body {
     border: 1px solid #ce462b80;
     width: 380px;
     height: 140px;
+    position: relative;
+}
+
+.education__main-primary {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 14px;
+    color: #ce462b;
 }
 
 .education__add-first {
