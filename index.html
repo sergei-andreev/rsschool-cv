@@ -1,175 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700&display=swap" rel="stylesheet">
-    <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      rel="stylesheet"
+    />
     <title>Sergei Andreev</title>
-</head>
+  </head>
 
-<body>
-    <section class="first-screen section">
+  <body>
+    <main class="main">
+      <section class="first-screen section">
         <div class="container">
-            <div>
-                <img class="personal-photo" src="photo.jpeg" alt="">
-            </div>
-            <h1 class="main-title">
-                I'm Sergei Andreev, <br>
-                a frontend developer
-            </h1>
+          <figure class="personal-photo">
+            <img src="photo.jpeg" alt="profile photo" height="500px" />
+          </figure>
 
-            <div class="about">
-                Do what you have to do until you can do what you want to do <br>
-                (Oprah Winfrey)
-            </div>
+          <h1 class="main-title">
+            I'm Sergei Andreev, <br />
+            frontend developer
+          </h1>
+
+          <div class="about">
+            Do what you have to do until you can do what you want to do <br />
+            (Oprah Winfrey)
+          </div>
         </div>
-    </section>
+      </section>
 
-    <section class="section">
+      <section class="section">
         <div class="container">
-            <h2 class="title">Professional Experience</h2>
+          <h2 class="title">Professional Experience</h2>
 
-            <div class="experiencies">
-                <div class="experience">
-                    <p class="experience__title">Tensor, 12.2019 - now</p>
-                    <p>Frontend engeneer</p>
-                    <p>Project: Сorporate product - SBIS</p>
-                    <p>Environment: HTML, LESS, JavaScript, TypeScript</p>
-                </div>
-                <div class="experience">
-                    <p class="experience__title">Real Estate Agency Unidom, 06.2019 - 12.2019</p>
-                    <p>Frontend developer</p>
-                    <p>Project: www.ndv72.ru</p>
-                    <p>Environment: HTML, SCSS, JavaScript, jQuery</p>
-                </div>
+          <div class="experiencies">
+            <div class="experience">
+              <p class="experience__title">
+                Tensor, <time>12.2019</time> - now
+              </p>
+              <p>Frontend engeneer</p>
+              <p>Project: Сorporate product - SBIS</p>
+              <p>Environment: HTML, LESS, JavaScript, TypeScript</p>
             </div>
-        </div>
-    </section>
-
-    <section class="section">
-        <div class="container">
-            <h2 class="title">My skills</h2>
-
-            <div class="skills">
-                <div class="skills-type">
-                    <p class="skills__title">Technologies:</p>
-                    <ul class="skills__list">
-                        <li class="skills__list-item">HTML5</li>
-                        <li class="skills__list-item">CSS3/SCSS</li>
-                        <li class="skills__list-item">JS (ES5, ES2015)</li>
-                        <li class="skills__list-item">TypeScript</li>
-                        <li class="skills__list-item">BEM</li>
-                    </ul>
-                </div>
-                <div class="skills-type">
-                    <p class="skills__title">Frameworks & Libraries:</p>
-                    <ul class="skills__list">
-                        <li class="skills__list-item">Lodash</li>
-                        <li class="skills__list-item">Bootstrap</li>
-                        <li class="skills__list-item">React</li>
-                    </ul>
-                </div>
-                <div class="skills-type">
-                    <p class="skills__title">Tools:</p>
-                    <ul class="skills__list">
-                        <li class="skills__list-item">Webpack</li>
-                        <li class="skills__list-item">ESLint</li>
-                        <li class="skills__list-item">GIT</li>
-                        <li class="skills__list-item">Firebase</li>
-                        <li class="skills__list-item">Webstorm</li>
-                        <li class="skills__list-item">VS Code</li>
-                    </ul>
-                </div>
-
+            <div class="experience">
+              <p class="experience__title">
+                Real Estate Agency Unidom, <time>06.2019</time> -
+                <time>12.2019</time>
+              </p>
+              <p>Frontend developer</p>
+              <p>Project: www.ndv72.ru</p>
+              <p>Environment: HTML, SCSS, JavaScript, jQuery</p>
             </div>
+          </div>
         </div>
-    </section>
+      </section>
 
-    <section class="section">
+      <section class="section">
         <div class="container">
-            <h2 class="title">Education</h2>
+          <h2 class="title">My skills</h2>
 
-            <div class="educations">
-                <div class="educations__column">
-                    <div class="educations__row">
-                        <p class="education education__main">
-                            <span class="education__main-primary">Main</span>
-                            <span>Tyumen Industrial University</span>
-                        </p>
-                    </div>
-                </div>
-
-                <div class="educations__column">
-                    <div class="educations__row">
-                        <p class="education education__add-first">Hexlet</p>
-                        <p class="education education__add-first">HTMLAcademy</p>
-                    </div>
-
-                    <div class="educations__row">
-                        <p class="education education__add-second">FreeCodeCamp</p>
-                        <p class="education education__add-second">SoloLearn</p>
-                        <div class="education education__add-second">
-                            <span>Udemy</span>
-                            <div style="display:none">
-                                <p>Advanced CSS and Sass: Flexbox, Grid, Animations and More!</p>
-                                <p>The Complete JavaScript Course 2020: Build Real Projects!</p>
-                                <p>React + Redux - Professional Development</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          <div class="skills">
+            <div class="skills-type">
+              <p class="skills__title">Technologies:</p>
+              <ul class="skills__list">
+                <li class="skills__list-item">HTML5</li>
+                <li class="skills__list-item">CSS3/SCSS</li>
+                <li class="skills__list-item">JS (ES5, ES2015)</li>
+                <li class="skills__list-item">TypeScript</li>
+                <li class="skills__list-item">BEM</li>
+              </ul>
             </div>
-        </div>
-    </section>
-
-    <section class="section">
-        <div class="container">
-            <h2 class="title">Contact info</h2>
-
-            <div class="contacts">
-                <ul class="contacts__list">
-                    <li class="contact">
-                        <span><i class="fa fa-phone contact__icon"></i></span>
-                        +7 (908) 872-03-11
-                    </li>
-                    <li class="contact">
-                        <span><i class="fab fa-telegram-plane contact__icon"></i></span>
-                        @and1tmn
-                    </li>
-                    <li class="contact">
-                        <span><i class="fas fa-envelope contact__icon"></i></span>
-                        s.andreev.it@gmail.com
-                    </li>
-                </ul>
+            <div class="skills-type">
+              <p class="skills__title">Frameworks & Libraries:</p>
+              <ul class="skills__list">
+                <li class="skills__list-item">Lodash</li>
+                <li class="skills__list-item">Bootstrap</li>
+                <li class="skills__list-item">React</li>
+              </ul>
             </div>
+            <div class="skills-type">
+              <p class="skills__title">Tools:</p>
+              <ul class="skills__list">
+                <li class="skills__list-item">Webpack</li>
+                <li class="skills__list-item">ESLint</li>
+                <li class="skills__list-item">GIT</li>
+                <li class="skills__list-item">Firebase</li>
+                <li class="skills__list-item">Webstorm</li>
+                <li class="skills__list-item">VS Code</li>
+              </ul>
+            </div>
+          </div>
         </div>
-    </section>
+      </section>
 
-    <section class="section">
+      <section class="section">
         <div class="container">
-            <h2 class="title">Or leave a message</h2>
+          <h2 class="title">Education</h2>
 
-            <form class="form">
-                <div class="form__row">
-                    <input class="form__input" type="text" placeholder="Your Name*">
-                    <input class="form__input" type="text" placeholder="Your E-mail*">
+          <div class="educations">
+            <div class="educations__column">
+              <div class="educations__row">
+                <p class="education education__main">
+                  <span class="education__main-primary">Main</span>
+                  <span>Tyumen Industrial University</span>
+                </p>
+              </div>
+            </div>
+
+            <div class="educations__column">
+              <div class="educations__row">
+                <p class="education education__add-first">Hexlet</p>
+                <p class="education education__add-first">HTMLAcademy</p>
+              </div>
+
+              <div class="educations__row">
+                <p class="education education__add-second">FreeCodeCamp</p>
+                <p class="education education__add-second">SoloLearn</p>
+                <div class="education education__add-second">
+                  <span>Udemy</span>
+                  <div style="display: none">
+                    <p>
+                      Advanced CSS and Sass: Flexbox, Grid, Animations and More!
+                    </p>
+                    <p>
+                      The Complete JavaScript Course 2020: Build Real Projects!
+                    </p>
+                    <p>React + Redux - Professional Development</p>
+                  </div>
                 </div>
-                <div class="form__row">
-                    <textarea class="form__textarea" placeholder="Message..."></textarea>
-                </div>
-                <div class="form__row">
-                    <a class="form__btn" href="#">Send Message</a>
-                </div>
-            </form>
+              </div>
+            </div>
+          </div>
         </div>
-    </section>
+      </section>
 
-</body>
+      <section class="section">
+        <div class="container">
+          <h2 class="title">Contact info</h2>
 
+          <div class="contacts">
+            <ul class="contacts__list">
+              <li class="contact">
+                <span><i class="fa fa-phone contact__icon"></i></span>
+                +7 (908) 872-03-11
+              </li>
+              <li class="contact">
+                <span><i class="fab fa-telegram-plane contact__icon"></i></span>
+                @and1tmn
+              </li>
+              <li class="contact">
+                <span><i class="fas fa-envelope contact__icon"></i></span>
+                s.andreev.it@gmail.com
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
 
+      <section class="section">
+        <div class="container">
+          <h2 class="title">Or leave a message</h2>
 
+          <form class="form">
+            <div class="form__row">
+              <input class="form__input" type="text" placeholder="Your Name*" />
+              <input
+                class="form__input"
+                type="text"
+                placeholder="Your E-mail*"
+              />
+            </div>
+            <div class="form__row">
+              <textarea
+                class="form__textarea"
+                placeholder="Message..."
+              ></textarea>
+            </div>
+            <div class="form__row">
+              <a class="form__btn" href="#">Send Message</a>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div>© 2021 Sergei Andreev</div>
+      </div>
+    </footer>
+  </body>
 </html>

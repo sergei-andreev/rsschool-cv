@@ -37,9 +37,11 @@ body {
 
 .personal-photo {
     float: right;
-    height: 400px;
-    border-radius: 5px;
     box-shadow: 0px 0px 20px #00000020;
+}
+
+.personal-photo img {
+    border-radius: 5px;
 }
 
 .main-title {
@@ -248,3 +250,11 @@ body {
 }
 
 /* .MESSAGE */
+
+/* FOOTER */
+
+.footer {
+    text-align: right;
+}
+
+/* .FOOTER */
